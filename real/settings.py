@@ -18,10 +18,6 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '89u!7$ho8*#-dvtjnc+n5w5rs1o8__*)!cebf5b#=j3ym5eb$('
 
@@ -30,28 +26,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
-# Application definition
-
-
-
-
-
 ROOT_URLCONF = 'real.urls'
 
-
-
 WSGI_APPLICATION = 'real.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-
-
-
-
-# Internationalization
-# https://docs.djangoproject.com/en/1.8/topics/i18n/
 
 LANGUAGE_CODE = 'ru'
 
@@ -151,8 +128,6 @@ INSTALLED_APPS = (
     'aldryn_style',
     'mptt',
     'aldryn_bootstrap3',
-    #'djangocms_youtube',
-
     'real'
 )
 
